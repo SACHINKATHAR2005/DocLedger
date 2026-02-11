@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { useQuery, useQueryClient } from '@tanstack/react-query';
+import { useQuery } from '@tanstack/react-query';
 import { useParams, useNavigate } from 'react-router-dom';
 import { orgsApi, docsApi } from '../lib/api';
 import { useAuthStore } from '../store/authStore';
 import { Button } from '../components/ui/button';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs';
+import { Tabs, TabsList, TabsTrigger } from '../components/ui/tabs';
 import { Separator } from '../components/ui/separator';
 import DocumentsView from '../components/DocumentsView';
 import MembersView from '../components/MembersView';
@@ -12,7 +12,7 @@ import SettingsView from '../components/SettingsView';
 import ChatAnalyticsView from '../components/ChatAnalyticsView';
 import ChatHistoryView from '../components/ChatHistoryView';
 import ChatPanel from '../components/ChatPanel';
-import { FileText, Users, Settings, ArrowLeft, MessageSquare, X, BarChart3, History } from 'lucide-react';
+import { FileText, Users, Settings, ArrowLeft, MessageSquare, BarChart3, History } from 'lucide-react';
 
 export default function OrgWorkspace() {
     const { orgId } = useParams<{ orgId: string }>();

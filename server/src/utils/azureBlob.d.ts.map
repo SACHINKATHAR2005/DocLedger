@@ -1,0 +1,1 @@
+{"version":3,"file":"azureBlob.d.ts","sourceRoot":"","sources":["azureBlob.ts"],"names":[],"mappings":"AAqBA;;GAEG;AACH,eAAO,MAAM,iBAAiB,GAC1B,UAAU,MAAM,EAChB,QAAQ,MAAM,EACd,UAAU,MAAM;;EAiBnB,CAAC;AAEF;;GAEG;AACH,eAAO,MAAM,mBAAmB,GAAU,UAAU,MAAM;;;EASzD,CAAC;AAEF;;GAEG;AACH,eAAO,MAAM,qBAAqB,GAAU,UAAU,MAAM,KAAG,OAAO,CAAC,MAAM,CAgB5E,CAAC"}

@@ -5,7 +5,7 @@ import { authApi } from '../lib/api';
 import { Loader2 } from 'lucide-react';
 
 export default function ProtectedRoute() {
-    const { isAuthenticated, isLoading, setUser, setLoading } = useAuthStore();
+    const { isAuthenticated, isLoading, setUser } = useAuthStore();
 
     useEffect(() => {
         const checkAuth = async () => {

@@ -12,7 +12,7 @@ import { Label } from '../components/ui/label';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '../components/ui/dropdown-menu';
 import { Avatar, AvatarFallback } from '../components/ui/avatar';
 import { toast } from 'sonner';
-import { FileText, Plus, Building2, Users, LogOut, Loader2, User } from 'lucide-react';
+import { FileText, Plus, Building2, Users, LogOut, Loader2 } from 'lucide-react';
 
 export default function Dashboard() {
     const navigate = useNavigate();

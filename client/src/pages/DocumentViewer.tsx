@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Download, Loader2, MessageSquare, X } from 'lucide-react';
+import { ArrowLeft, Download, Loader2, MessageSquare } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { useQuery } from '@tanstack/react-query';
 import { docsApi } from '../lib/api';
